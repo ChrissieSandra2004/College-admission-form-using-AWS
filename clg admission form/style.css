@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle; /* Aligns content vertically */
+}
+
+.inner {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inner td {
+    border: 1px solid #ccc;
+    padding: 10px; /* Increase padding for better spacing */
+    text-align: left; /* Aligns text to the left */
+    vertical-align: top; /* Aligns content to the top */
+}
+
+.inner b {
+    color: #007BFF;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: calc(100% - 16px); /* Subtract padding for proper alignment */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+td[colspan="2"] {
+    text-align: center; /* Center the text inside the cell */
+}
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
